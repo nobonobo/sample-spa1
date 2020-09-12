@@ -8,7 +8,7 @@ type Top struct {
 }
 
 func (c *Top) Render()spago.HTML {
-	return spago.Tag("body")
+	return spago.Tag("body", spago.T("Hello World!"))
 }
 
 func main(){
